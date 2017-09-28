@@ -20,7 +20,7 @@
         ],
         "psr-4": {
             "App\\": "app/",
-            "Barsegyan\\Createcmm\\": "../../../barsegyan/createcmm/src"
+            "Barsegyan\\Createcmm\\": "../../../vendor/barsegyan/createcmm/src"
         }
     },
 
