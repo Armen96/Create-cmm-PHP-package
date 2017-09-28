@@ -1,12 +1,14 @@
 {
     "name": "barsegyan/createcmm",
     "description": "Demo-package to create Controller Model Migration",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Laravel Daily",
-            "email": "info@laraveldaily.com"
+            "name": "Armen Barsegyan",
+            "email": "barsegyan96armen@gmail.com"
         }
     ],
+
     "minimum-stability": "dev",
     "require": {}
 }

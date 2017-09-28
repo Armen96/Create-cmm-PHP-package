@@ -13,7 +13,11 @@ class BarsegyanCreateCMMServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                CreateCMMController::class
+            ]);
+        }
     }
 
     /**
