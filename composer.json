@@ -1,0 +1,12 @@
+{
+    "name": "barsegyan/createcmm",
+    "description": "Demo-package to create Controller Model Migration",
+    "authors": [
+        {
+            "name": "Laravel Daily",
+            "email": "info@laraveldaily.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
