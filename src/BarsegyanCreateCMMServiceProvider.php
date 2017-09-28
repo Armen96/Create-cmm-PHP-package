@@ -19,7 +19,6 @@ class BarsegyanCreateCMMServiceProvider extends ServiceProvider
             ]);
         }
     }
-
     /**
      * Register the application services.
      *
