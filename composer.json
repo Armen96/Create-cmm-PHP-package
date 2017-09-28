@@ -10,5 +10,10 @@
     ],
 
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcmm/src"
+        }
+    },
     "require": {}
 }
