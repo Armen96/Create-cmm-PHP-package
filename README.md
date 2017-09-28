@@ -1,14 +1,12 @@
 
 # create-cmm
 
-Seeder creates an artisan command that lets you quickly create seeds from your existing database.
-
 ## Install
 
 Via Composer
 
 ```
-composer require karakhanyans/seeder
+composer require barsegyan/createcmm
 ```
 
 In your app/config/app.php file, add the following to the providers array:
