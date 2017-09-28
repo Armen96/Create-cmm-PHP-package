@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 =======
 # create-cmm
->>>>>>> 347a96ca67fd281a0d49f7676aa291f08a480f38
+
 Create CMM
 
 
@@ -22,11 +21,10 @@ After composer required add "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcm
     "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcmm/src"
 }
 
-<<<<<<< HEAD
-=======
+
 composer dump-autoload  command.
 
->>>>>>> 347a96ca67fd281a0d49f7676aa291f08a480f38
+
 Once installed, you should see create:cmm as one of the artisan commands when you run:
 
 php artisan list
@@ -39,8 +37,7 @@ This would create cmm files in your project (PostController,Post Model and post 
 Armen Barsegyan
 License
 
-<<<<<<< HEAD
 The MIT License (MIT). Please see License File for more information.
-=======
+
 The MIT License (MIT). Please see License File for more information.
->>>>>>> 347a96ca67fd281a0d49f7676aa291f08a480f38
+
