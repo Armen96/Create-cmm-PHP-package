@@ -19,6 +19,8 @@ After composer required add "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcm
     "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcmm/src"
 }
 
+composer dump-autoload  command.
+
 Once installed, you should see create:cmm as one of the artisan commands when you run:
 
 php artisan list
