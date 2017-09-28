@@ -31,39 +31,7 @@ php artisan generate:seed
 
 This would create seed files in your database/seeds directory with a php files, which would contain the following stub:
    
-```
-<?php
 
-use Illuminate\Database\Seeder;
-
-class UserSeed extends Seeder
-{
-
-	/**
-	* Run the database seeds.
-	*
-	* @return void
-	*/
-
-	 protected $users;
-
-	 public function setUsers(){
-		$this->users = //serialized data;
-	 }
-
-	 public function run(){
-		 $this->setUsers();
-		 foreach(unserialize($this->users) as $item){
-			 try{ 
-				\App\User::create((array)$item);
-			}catch (\Exception $e){
-				\Illuminate\Support\Facades\Log::info('Duplicate entry for user: '.$item['id']);
-			 }
-		 }
-	 }
-
-}
-```
 In your database/seeds/DatabaseSeeder.php file, add the following to the run() action to call all new seeds:
 ```
 $this->call(GlobalSeeder::class);
