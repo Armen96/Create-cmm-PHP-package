@@ -12,10 +12,6 @@
     "minimum-stability": "dev",
 
     "autoload": {
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ],
         "psr-4": {
             "App\\": "app/",
             "Barsegyan\\Createcmm\\": "vendor/barsegyan/createcmm/src"
