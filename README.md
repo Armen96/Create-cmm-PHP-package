@@ -1,5 +1,5 @@
 
-# create-cmm
+# Create-cmm (php package)
 
 ## Install
 
